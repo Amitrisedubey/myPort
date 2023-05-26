@@ -1,0 +1,56 @@
+.skill-section {
+  background-color: #99feff;
+}
+.skill-section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.skill-section2 > div {
+  width: 28%;
+  height: 320px;
+}
+.frontend {
+  background-color: #7ad9f5;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  border-radius: 8px;
+}
+.frontend:hover {
+  background-color: #94b3fd;
+  transition: 2s;
+}
+.frontend1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.head {
+  color: #5d3891;
+}
+.frontend2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+.btn2 {
+  border: none;
+  background-color: #effffd;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.titles {
+  font-weight: bolder;
+  color: #5d3891;
+  font-size: 13px;
+}
+@media only screen and (max-width: 850px) {
+  .skill-section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-section2 > div {
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+.about-section {
+  background-color: #94daff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-section2 {
+  display: flex;
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+}
+.imagepart {
+  width: 50%;
+}
+.aboutpart {
+  width: 50%;
+}
+
+@media only screen and (max-width: 850px) {
+  .about-section2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .imagepart {
+    width: 100%;
+  }
+  .aboutpart {
+    width: 80%;
+  }
+}
