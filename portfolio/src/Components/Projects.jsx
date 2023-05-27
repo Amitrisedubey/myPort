@@ -40,7 +40,12 @@ export const Projects = () => {
                       borderRadius: "8px",
                     }}
                   >
-                    Live Demo
+                    <a
+                      style={{ textDecoration: "none", color: "#ddd" }}
+                      href="https://amazonelokiclone.vercel.app/"
+                    >
+                      Live Demo
+                    </a>
                   </button>
                   <button
                     style={{
@@ -54,7 +59,12 @@ export const Projects = () => {
                       borderRadius: "8px",
                     }}
                   >
-                    Github Repo
+                    <a
+                      style={{ textDecoration: "none", color: "#ddd" }}
+                      href="https://github.com/Amitrisedubey/AmazonClone"
+                    >
+                      Github Repo
+                    </a>
                   </button>
                 </div>
               </div>
@@ -154,7 +164,12 @@ export const Projects = () => {
                       borderRadius: "8px",
                     }}
                   >
-                    Live Demo
+                    <a
+                      style={{ textDecoration: "none", color: "#ddd" }}
+                      href="https://6471d9387840e261c7fe1df7--jovial-gelato-aa5863.netlify.app/"
+                    >
+                      Live Demo
+                    </a>
                   </button>
                   <button
                     style={{
@@ -168,7 +183,12 @@ export const Projects = () => {
                       borderRadius: "8px",
                     }}
                   >
-                    Github Repo
+                    <a
+                      style={{ textDecoration: "none", color: "#ddd" }}
+                      href="https://github.com/Amitrisedubey/YoutubeClone"
+                    >
+                      Github Repo
+                    </a>
                   </button>
                 </div>
               </div>
