@@ -7,17 +7,29 @@ export const Home = () => {
       <div className="social">
         <div className="social2">
           <div>
-            <FaGithub />
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/Amitrisedubey"
+            >
+              <FaGithub color="black" />
+            </a>
           </div>
           <div>
-            <FaLinkedin color="#b983ff" />
+            <a href="https://www.linkedin.com/in/amit-dubey-99a03a229/">
+              <FaLinkedin color="#b983ff" />
+            </a>
           </div>
           <div>
-            <FaInstagram color="red" />
+            <a href="https://www.instagram.com/therisingamit/?next=%2F">
+              <FaInstagram color="red" />
+            </a>
           </div>
 
           <div>
-            <FaTwitter color="#b983ff" />
+            <a href="https://twitter.com/Amitrisedubey">
+              {" "}
+              <FaTwitter color="#b983ff" />
+            </a>
           </div>
         </div>
       </div>

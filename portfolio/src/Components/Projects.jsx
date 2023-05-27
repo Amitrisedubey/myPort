@@ -18,13 +18,7 @@ export const Projects = () => {
           <div className="firstproject2">
             <div className="first">
               <div className="imagediv">
-                <img
-                  src={amazonclone}
-                  width={630}
-                  height={450}
-                  style={{ borderRadius: "8px" }}
-                  alt=""
-                />
+                <img className="imgr" src={amazonclone} alt="" />
               </div>
               <div>
                 <div
@@ -138,13 +132,7 @@ export const Projects = () => {
           <div className="firstproject2">
             <div className="first">
               <div className="imagediv">
-                <img
-                  src={youclone}
-                  width={630}
-                  height={450}
-                  style={{ borderRadius: "8px" }}
-                  alt=""
-                />
+                <img src={youclone} className="imgr" alt="" />
               </div>
               <div>
                 <div
