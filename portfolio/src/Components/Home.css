@@ -42,7 +42,9 @@
   justify-content: center;
 }
 .imgdiv > div > img {
-  border-radius: 100%;
+  border-radius: 80%;
+  width: 300px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 850px) {

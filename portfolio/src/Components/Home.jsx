@@ -1,6 +1,6 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import "../Components/Home.css";
-import profileimg from "../assets/IMG_20230327_193002.jpg";
+import profileimg from "../assets/me.jpg";
 export const Home = () => {
   return (
     <div id="homes" className="main">
